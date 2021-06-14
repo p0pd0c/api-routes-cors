@@ -1,5 +1,7 @@
+import {Fragment} from 'react'
 export default function Index() {
   return (
+    <Fragment>
     <p>
       To test the CORS route, open the console in a new tab on a different
       domain and make a POST / GET / OPTIONS request to <b>/api/cors</b>. Using
@@ -13,5 +15,6 @@ export default function Index() {
             console.log(data);
           });
   </p>
+  </Fragment>
   )
 }
